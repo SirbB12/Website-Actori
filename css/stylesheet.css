@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+body {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+.parinte{
+    display: flex;
+    width: 100vw;
+    
+}
+.top-bar{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    justify-content: space-evenly;
+}
+.content1{
+    margin-top:10vh;
+   display: flex;
+    width: 100vw;
+    height: 90vh;
+    background-image: linear-gradient(
+140deg
+, #eba897 0%, #76c9c2 50%, #bb9468 75%);
+    
+}
+.imagine1{
+    border-right: solid white;
+    margin-top: 3%;
+width: 30vw;
+height: 80%;
+background-image: linear-gradient(
+    140deg
+    , #eba897 0%, #76c9c2 50%, #bb9468 75%);
+text-align:center;
+}
+#diesel{
+    margin-top: 25%;
+    width: 21vw;
+    height: 60%;
+    border-radius: 50%;
+}
+#unu{
+    width: 5vw;
+    height: 10vh;
+}
+.text1{
+    width: 70vw;
+    height: 70%;
+}
+h1{
+    font-family:Luminari, fantasy;
+    margin-top: 5%;
+    text-align: center;
+}
+p{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.parinte2{
+    display: flex;
+    width: 100vw;
+    
+    
+}
+.imagine2{
+    border-left: solid white;
+    margin-top: 3%;
+width: 30vw;
+height: 80%;
+background-image: linear-gradient(
+    140deg
+    , #9fe595 0%, #9f83ec 50%, #dfcf74 75%);
+text-align: center;
+}
+#luke{
+    margin-top: 25%;
+    width: 21vw;
+    height: 55%;
+    border-radius: 50%;
+}
+.content2{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+140deg
+, #9fe595 0%, #9f83ec 50%, #dfcf74 75%);
+}
+.text2{
+    width: 70vw;
+    height: 70%;
+}
+.parinte3{
+    display: flex;
+    width: 100vw;
+    
+   
+}
+.content3{
+   display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+        140deg
+        , #EADEDB 0%, #eb75c5 50%, #7dcf69 75%);
+    
+}
+.imagine3{
+    border-right: solid white;
+    margin-top: 3%;
+width: 30vw;
+height: 80%;
+background-image: linear-gradient(
+        140deg
+        , #EADEDB 0%, #eb75c5 50%, #7dcf69 75%);
+text-align: center;
+}
+#wood{
+    margin-top: 25%;
+    width: 21vw;
+    height: 50%;
+    border-radius: 50%;
+    
+}
+.text3{
+    width: 70vw;
+    height: 70%;
+}
+.parinte4{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    
+}
+.imagine4{
+    border-left: solid white;
+    margin-top: 3%;
+width: 30vw;
+height: 80%;
+background-image: linear-gradient(
+    140deg
+    , #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+text-align: center;
+}
+#robert{
+    margin-top: 25%;
+    width: 21vw;
+    height:50%;
+    border-radius: 50%;
+    
+}
+.content4{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    margin-bottom: 10vh;
+    background-image: linear-gradient(
+140deg
+, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    
+}
+.text4{
+    width: 70vw;
+    height: 70%;
+}
+#bottom{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    background-color: black;
+    bottom: 0px;
+    left: 0px;
+    justify-content: center;
+    
+}
+h4{
+   margin-top: 2%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media(max-width:768px){
+    #unu{
+        width: 10vw;
+    }
+    .content1{
+        display: inline-block;
+        height: 70vw;
+    }
+    .text1{
+        height: 30%;
+        font-size: 5px;
+    }
+    .imagine1{
+        height: 40%;
+        margin-left: 50%;
+    }
+    
+    .content2{
+        display: inline-block;
+        height: 70vw;
+    }
+    .text2{
+        margin-left: 25%;
+        height: 30%;
+        font-size: 5px;
+    }
+    .imagine2{
+        
+        height: 40%;
+    }
+    .content3{
+        display: inline-block;
+        
+    }
+    .text3{
+        height: 30%;
+        font-size: 5px;
+    }
+    .imagine3{
+        margin-left: 55%;
+        height: 30%;
+    }
+
+    .content4{
+        display: inline-block;
+    }
+    .text4{
+        margin-left: 25%;
+        height: 30%;
+        font-size: 6px;
+    }
+    .imagine4{
+        
+        height: 50%;
+        
+    }
+}
